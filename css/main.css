@@ -1,0 +1,50 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: #ced9d6;
+}
+.riga {
+  margin: auto 10%;
+}
+
+.sezione {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  margin: 5px;
+}
+
+
+img {
+  height: 100%;
+  width: 100%
+}
+
+.sconto {
+  height: 20px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rosso {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+
+.cuore {
+  color: red;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  display: none;
+}
+
+section:hover .cuore {
+  display: block;
+}
