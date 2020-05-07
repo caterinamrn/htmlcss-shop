@@ -13,14 +13,16 @@ body{
 .sezione {
   display: inline-block;
   width: 300px;
+  height: 310px;
   position: relative;
-  margin: 5px;
+  margin: 20px 5px;
+ background-color: white;
 }
 
 
 img {
-  height: 100%;
-  width: 100%
+  height: 280px;
+  width: 300px;
 }
 
 .sconto {
@@ -39,12 +41,13 @@ img {
 
 .cuore {
   color: red;
-  text-align: center;
-  position: relative;
-  bottom: 30px;
+  position: absolute;
   display: none;
+  padding: 0 50%;
+  width: 300px ;
 }
 
 section:hover .cuore {
-  display: block;
+  display:block;
+
 }
