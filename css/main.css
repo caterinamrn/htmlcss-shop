@@ -6,28 +6,34 @@ box-sizing: border-box;
 body{
   background-color: #ced9d6;
 }
-.riga {
-  margin: auto 10%;
+
+ .contenitore {
+   width: 80%;
+   margin: 10px auto;
+ }
+
+.riga{
+  margin-bottom: 20px;
 }
 
 .sezione {
   display: inline-block;
-  width: 300px;
-  height: 310px;
   position: relative;
-  margin: 20px 5px;
- background-color: white;
+  width: 300px;
+  margin: 0 5px;
+  background-color: white;
 }
 
 
 img {
-  height: 280px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
 
 .sconto {
   height: 20px;
   width: 50px;
+  text-align: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -42,12 +48,16 @@ img {
 .cuore {
   color: red;
   position: absolute;
+  bottom: 10px;
   display: none;
-  padding: 0 50%;
-  width: 300px ;
+  width: 100% ;
+  text-align: center;
 }
 
 section:hover .cuore {
   display:block;
+}
 
+section:hover {
+cursor: pointer;
 }
